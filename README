@@ -1,0 +1,10 @@
+HOW TO RUN
+    Note: Postgresql, Python3, and Madlib must be installed before running
+    Note: All files should be run with Python3.X
+    Note: orl_faces directory should be included
+    1. Edit FaceConfig.py with the correct values
+    2. Run CreateFaceDatabase.py
+    3. Run PCATrain.py
+    4. Run PCATest.py with two parameters indicating the individual's face and face number respectively
+
+TODO: Need to add function that calculated the Euclidean distance between faces for it to be complete
